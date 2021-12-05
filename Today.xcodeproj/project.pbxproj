@@ -14,6 +14,7 @@
 		DE59BE96275C5F3600E8D9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE59BE95275C5F3600E8D9BC /* Assets.xcassets */; };
 		DE59BE99275C5F3600E8D9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE59BE97275C5F3600E8D9BC /* LaunchScreen.storyboard */; };
 		DE59BEA1275C60F300E8D9BC /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEA0275C60F300E8D9BC /* Reminder.swift */; };
+		DE59BEA3275C89D700E8D9BC /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEA2275C89D700E8D9BC /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DE59BE98275C5F3600E8D9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE59BE9A275C5F3600E8D9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE59BEA0275C60F300E8D9BC /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		DE59BEA2275C89D700E8D9BC /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DE59BE8E275C5F3500E8D9BC /* SceneDelegate.swift */,
 				DE59BE90275C5F3500E8D9BC /* ViewController.swift */,
 				DE59BEA0275C60F300E8D9BC /* Reminder.swift */,
+				DE59BEA2275C89D700E8D9BC /* ReminderListCell.swift */,
 				DE59BE92275C5F3500E8D9BC /* Main.storyboard */,
 				DE59BE95275C5F3600E8D9BC /* Assets.xcassets */,
 				DE59BE97275C5F3600E8D9BC /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE59BE91275C5F3500E8D9BC /* ViewController.swift in Sources */,
+				DE59BEA3275C89D700E8D9BC /* ReminderListCell.swift in Sources */,
 				DE59BE8D275C5F3500E8D9BC /* AppDelegate.swift in Sources */,
 				DE59BE8F275C5F3500E8D9BC /* SceneDelegate.swift in Sources */,
 				DE59BEA1275C60F300E8D9BC /* Reminder.swift in Sources */,
