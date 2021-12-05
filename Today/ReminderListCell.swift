@@ -9,4 +9,7 @@ import UIKit
 
 class ReminderListCell: UITableViewCell {
     
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var dateLabel: UILabel!
+    @IBOutlet var doneButton: UIButton!
 }
