@@ -12,6 +12,10 @@ class ReminderListViewController: UITableViewController {
     
     static let showDetailSegueIdentifier = "ShowReminderDetailSegue"
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == Self.showDetailSegueIdentifier,
            let destination = segue.destination as? ReminderDetailViewController,
