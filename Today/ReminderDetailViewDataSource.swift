@@ -22,6 +22,14 @@ class ReminderDetailViewDataSource: NSObject {
             return formatter
         }()
         
+        static let timeFormatter: DateFormatter = {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .none
+            formatter.timeStyle = .short
+            
+            return formatter
+        }()
+        
         func displayText(for reminder: Reminder?) -> String? {
             switch self {
             case .title:
