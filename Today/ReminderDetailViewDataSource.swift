@@ -35,9 +35,17 @@ class ReminderDetailViewDataSource: NSObject {
             case .title:
                 return reminder?.title
             case .date:
-                return reminder?.dueDate.description
+                guard let date = reminder?.dueDate else {
+                    return nil
+                }
+                
+                return Self.dateFormatter.string(from: date)
             case .time:
-                return reminder?.dueDate.description
+                guard let date = reminder?.dueDate else {
+                    return nil
+                }
+                
+                return Self.dateFormatter.string(from: date)
             case .notes:
                 return reminder?.notes
             }
