@@ -43,5 +43,7 @@ class ReminderDetailViewController: UITableViewController {
     
     var reminder: Reminder?
     
-    
+    func configure(with reminder: Reminder) {
+        self.reminder = reminder
+    }
 }
