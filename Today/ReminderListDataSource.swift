@@ -8,7 +8,7 @@
 import UIKit
 
 class ReminderListDataSource: NSObject {
-    
+    private lazy var dateFormatter = RelativeDateTimeFormatter()
 }
 
 extension ReminderListDataSource: UITableViewDataSource {
