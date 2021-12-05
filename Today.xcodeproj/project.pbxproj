@@ -20,6 +20,7 @@
 		DE59BEA9275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEA8275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift */; };
 		DE59BEAC275D002300E8D9BC /* EditTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEAB275D002300E8D9BC /* EditTitleCell.swift */; };
 		DE59BEAE275D014000E8D9BC /* EditDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEAD275D014000E8D9BC /* EditDateCell.swift */; };
+		DE59BEB0275D01C000E8D9BC /* EditNotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEAF275D01C000E8D9BC /* EditNotesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DE59BEA8275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewDataSource.swift; sourceTree = "<group>"; };
 		DE59BEAB275D002300E8D9BC /* EditTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleCell.swift; sourceTree = "<group>"; };
 		DE59BEAD275D014000E8D9BC /* EditDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDateCell.swift; sourceTree = "<group>"; };
+		DE59BEAF275D01C000E8D9BC /* EditNotesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				DE59BEA2275C89D700E8D9BC /* ReminderListCell.swift */,
 				DE59BEAB275D002300E8D9BC /* EditTitleCell.swift */,
 				DE59BEAD275D014000E8D9BC /* EditDateCell.swift */,
+				DE59BEAF275D01C000E8D9BC /* EditNotesCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				DE59BEA5275C9F1500E8D9BC /* ReminderDetailViewController.swift in Sources */,
 				DE59BEA9275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift in Sources */,
 				DE59BE8F275C5F3500E8D9BC /* SceneDelegate.swift in Sources */,
+				DE59BEB0275D01C000E8D9BC /* EditNotesCell.swift in Sources */,
 				DE59BEAE275D014000E8D9BC /* EditDateCell.swift in Sources */,
 				DE59BEA1275C60F300E8D9BC /* Reminder.swift in Sources */,
 				DE59BEA7275CDBBA00E8D9BC /* ReminderListDataSource.swift in Sources */,
