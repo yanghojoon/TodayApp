@@ -14,6 +14,8 @@ class ReminderListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        reminderListDataSource = ReminderListDataSource()
+        tableView.dataSource = reminderListDataSource
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
