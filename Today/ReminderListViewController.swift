@@ -8,7 +8,7 @@
 import UIKit
 
 class ReminderListViewController: UITableViewController {
-    
+    static let showDetailSegueIdentifier = "ShowReminderDetailSegue"
 }
 
 extension ReminderListViewController {
