@@ -40,4 +40,8 @@ class ReminderDetailViewController: UITableViewController {
             }
         }
     }
+    
+    var reminder: Reminder?
+    
+    
 }
