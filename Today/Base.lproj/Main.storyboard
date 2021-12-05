@@ -61,6 +61,7 @@
                                     <outlet property="dateLabel" destination="uWY-sv-nhb" id="FDJ-Yy-FJB"/>
                                     <outlet property="doneButton" destination="mCd-QY-M3w" id="L2N-9X-ibS"/>
                                     <outlet property="titleLabel" destination="PrY-RX-MqW" id="LNh-SD-0j9"/>
+                                    <segue destination="hhM-wH-7lJ" kind="show" identifier="ShowReminderDetailSegue" id="g2W-Xz-fkf"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -98,6 +99,7 @@
                             <outlet property="delegate" destination="hhM-wH-7lJ" id="rgd-Nl-sXc"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="RHg-ZP-TQN"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9b-K0-mcP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
