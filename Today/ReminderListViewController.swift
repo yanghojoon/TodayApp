@@ -8,6 +8,8 @@
 import UIKit
 
 class ReminderListViewController: UITableViewController {
+    private var reminderListDataSource: ReminderListDataSource?
+    
     static let showDetailSegueIdentifier = "ShowReminderDetailSegue"
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
