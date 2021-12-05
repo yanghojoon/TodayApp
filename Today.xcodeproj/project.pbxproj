@@ -18,6 +18,7 @@
 		DE59BEA5275C9F1500E8D9BC /* ReminderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEA4275C9F1500E8D9BC /* ReminderDetailViewController.swift */; };
 		DE59BEA7275CDBBA00E8D9BC /* ReminderListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEA6275CDBBA00E8D9BC /* ReminderListDataSource.swift */; };
 		DE59BEA9275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEA8275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift */; };
+		DE59BEAC275D002300E8D9BC /* EditTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59BEAB275D002300E8D9BC /* EditTitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DE59BEA4275C9F1500E8D9BC /* ReminderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewController.swift; sourceTree = "<group>"; };
 		DE59BEA6275CDBBA00E8D9BC /* ReminderListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListDataSource.swift; sourceTree = "<group>"; };
 		DE59BEA8275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewDataSource.swift; sourceTree = "<group>"; };
+		DE59BEAB275D002300E8D9BC /* EditTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		DE59BE8B275C5F3500E8D9BC /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				DE59BEAA275CFFDE00E8D9BC /* Views */,
 				DE59BE8C275C5F3500E8D9BC /* AppDelegate.swift */,
 				DE59BE8E275C5F3500E8D9BC /* SceneDelegate.swift */,
 				DE59BE90275C5F3500E8D9BC /* ReminderListViewController.swift */,
@@ -73,13 +76,21 @@
 				DE59BEA4275C9F1500E8D9BC /* ReminderDetailViewController.swift */,
 				DE59BEA8275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift */,
 				DE59BEA0275C60F300E8D9BC /* Reminder.swift */,
-				DE59BEA2275C89D700E8D9BC /* ReminderListCell.swift */,
 				DE59BE92275C5F3500E8D9BC /* Main.storyboard */,
 				DE59BE95275C5F3600E8D9BC /* Assets.xcassets */,
 				DE59BE97275C5F3600E8D9BC /* LaunchScreen.storyboard */,
 				DE59BE9A275C5F3600E8D9BC /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		DE59BEAA275CFFDE00E8D9BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE59BEA2275C89D700E8D9BC /* ReminderListCell.swift */,
+				DE59BEAB275D002300E8D9BC /* EditTitleCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			files = (
 				DE59BE91275C5F3500E8D9BC /* ReminderListViewController.swift in Sources */,
 				DE59BEA3275C89D700E8D9BC /* ReminderListCell.swift in Sources */,
+				DE59BEAC275D002300E8D9BC /* EditTitleCell.swift in Sources */,
 				DE59BE8D275C5F3500E8D9BC /* AppDelegate.swift in Sources */,
 				DE59BEA5275C9F1500E8D9BC /* ReminderDetailViewController.swift in Sources */,
 				DE59BEA9275CDF2B00E8D9BC /* ReminderDetailViewDataSource.swift in Sources */,
