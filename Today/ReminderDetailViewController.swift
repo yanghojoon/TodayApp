@@ -26,5 +26,18 @@ class ReminderDetailViewController: UITableViewController {
                 return reminder?.notes
             }
         }
+        
+        var cellImage: UIImage? {
+            switch self {
+            case .title:
+                return nil
+            case .date:
+                return UIImage(systemName: "calendar.circle")
+            case .time:
+                return UIImage(systemName: "clock")
+            case .notes:
+                return UIImage(systemName: "square.and.pencil")
+            }
+        }
     }
 }
